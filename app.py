@@ -22,6 +22,6 @@ def myindex():
 def myclaire():
     return render_template('claire.html')
 
-# @app.route('/test1')
-# def mytest1():
-#     return render_template('test1.html')
+@app.route('/papa')
+def mypapa():
+    return render_template('papa.html')
