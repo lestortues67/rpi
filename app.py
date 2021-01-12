@@ -18,9 +18,9 @@ app = Flask(__name__)
 def myindex():
     return render_template('index.html')
 
-# @app.route('/test0')
-# def mytest0():
-#     return render_template('test0.html')
+@app.route('/papa')
+def mypapa():
+    return render_template('papa.html')
 
 # @app.route('/test1')
 # def mytest1():
